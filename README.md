@@ -29,7 +29,7 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 
 #### [시멘틱 마크업]
 - 시멘틱 마크업(Semantic Markup)은 비주얼 디자인(모양, 색, 크기 등)이 목표가 아니라, 구조 설계(Structure Design)를 목표로 합니다
-```
+```html
 <h1></h1> <!--제목 heading-->
 <p></p> <!--단락 paragraph-->
 ```
@@ -40,7 +40,7 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 - <여는 태그> 컨텐츠 </닫는 태그>
 - <태그이름 속성="값"> 컨텐츠 </태그이름>
 - (참고) 페이지 검사 -> console -> document.characterSet -> 문자 인코딩 반환 (UTF-8)
-```
+```html
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -63,13 +63,13 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 - head와 body는 각각 다른 성질의 자식들을 가질 수 있음. 
 
 - DTD : 문서 유형 정의(Document Type Definition)
-```
+```html
 <!DOCTYPE html> <!--웹표준문서-->
 ```
 
 #### [주 언어 설정]
 
-```
+```html
 <html lang="ko-KR"> <!--ko/en/es/ja 등..-->
 ```
 - KR : Republic of Korea 지역(locale) 정보. ko 만 사용하면 한국어를 통칭
@@ -79,7 +79,7 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 
 - 제목 레벨(Level): 1 ~ 6단계에서 1단계는 문서에서 하나만 작성가능, 2단계부터는 여러개의 제목을 사용할 수 있음
 
-```
+```html
 <h1>제목 1</h1> <!-- 문서에서 단 1회만 사용 (HTML5 표준 부터는 섹션 콘텐츠 마다 사용 가능) -->
 <h1>제목 2</h1>
 <h1>제목 3</h1>
@@ -98,7 +98,7 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 - figure : 이미지, 차트, 도표 등을 감싸는 태그
 - alt(alternative) : 대체텍스트, 이미지를 분석하여 묘사할것.
 
-```
+```html
 <figure>
   <img src="" alt="대체 텍스트">
   <figcaption>이미지 출처 등 캡션</figcaption>
@@ -109,7 +109,7 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 - validator.w3.org : 문법 유효성 검사
 - entitycode.com : entitycode
 
-```
+```html
 &lt; &gt; &copy; &midot; &nbsp; &amp;
 ```
 
