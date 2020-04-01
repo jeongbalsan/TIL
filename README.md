@@ -194,16 +194,17 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 의미 요소(Semantic Elements)
 - 강조의 의미를 부여하는 용도
 
-<strong> : 내용의 중요성(importance), 심각성(seriousness), 긴급성(urgency)을 강조할 경우 사용
+"<strong>" : 내용의 중요성(importance), 심각성(seriousness), 긴급성(urgency)을 강조할 경우 사용
 
-	* [중요성] : 제목/캡션의 글자 중 일부를 더욱 강조하는데 사용
-	```html
-		<h1>챕터 1: <strong>연습</strong></h1>
+* [중요성] : 제목/캡션의 글자 중 일부를 더욱 강조하는데 사용
+```html
+	<h1>챕터 1: <strong>연습</strong></h1>
+	
+	<figcaption>피규어 1. <strong>개미 식민지 역학</strong>. 이 식민지 지역의 개미는 열원(왼쪽 위)과 식량 공급원(오른쪽 아래)의 영향을 받습니다.</figcaption>
 		
-		<figcaption>피규어 1. <strong>개미 식민지 역학</strong>. 이 식민지 지역의 개미는 열원(왼쪽 위)과 식량 공급원(오른쪽 아래)의 영향을 받습니다.</figcaption>
-		
-		<h1><strong>꽃, 꿀벌, 꿀</strong> 그리고 내가 이해하지 못하는 다른 요소</h1>
-	```
+	<h1><strong>꽃, 꿀벌, 꿀</strong> 그리고 내가 이해하지 못하는 다른 요소</h1>
+```
+
 	* [심각성] : 경고 또는 주의를 주고자 할 때 사용
 	```html	
 		<p>
