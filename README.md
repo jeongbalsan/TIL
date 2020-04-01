@@ -194,7 +194,7 @@ GitHub 저장소는 온라인? 그럼 내 컴퓨터의 공간에 저장된 저�
 의미 요소(Semantic Elements)
 - 강조의 의미를 부여하는 용도
 
-"<strong>" : 내용의 중요성(importance), 심각성(seriousness), 긴급성(urgency)을 강조할 경우 사용
+"&lt;strong&gt;" : 내용의 중요성(importance), 심각성(seriousness), 긴급성(urgency)을 강조할 경우 사용
 
 * [중요성] : 제목/캡션의 글자 중 일부를 더욱 강조하는데 사용
 ```html
