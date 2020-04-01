@@ -394,3 +394,23 @@ section 요소 대신 article 요소를 사용하는 것이 좋다.
 ```
 	
 </details>
+
+<details>
+  <summary>3일차 학습</summary>
+
+#### [컨테이너 요소]
+
+<b>HTML 요소를 묶는 컨테이너 요소들</b>
+- 아무런 의미(Semantic)는 가지지 않는다.
+- 그러하므로 이 요소들은 적절한 시멘틱 요소가 없을 때 사용해야 한다.
+
+<b>&lt;div&gt; 디비전(Division) 요소</b>
+- 블록(block) 컨테이너
+
+<b>&lt;span&gt; 스팬(Span) 요소</b>
+- 인라인(inline) 컨테이너
+- 인라인 요소들(a, strong, em, b, i 등)을 감쌀 때 사용된다.
+- 블록 요소들(h1~6, p, blockquote, section 등)을 감쌀 수 없다.
+
+
+</details>
