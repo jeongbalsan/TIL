@@ -589,6 +589,10 @@ function Panel(element, canClose, closeHandler) {
       <circle r="50" cx="75" cy="75" fill="#333" stroke="#900" stroke-width="4" />
     </svg>
   ```
+</details>
+
+<details>
+  <summary>4일차 학습</summary>
 
 #### [테이블 요소]
 - ```<table>``` 요소
@@ -1176,7 +1180,7 @@ function Panel(element, canClose, closeHandler) {
     [사용 예시]
       <meter value="20" min="5" max="40">20</meter>
     ```
-    
+
 </details>
 
 <details id="5day">
